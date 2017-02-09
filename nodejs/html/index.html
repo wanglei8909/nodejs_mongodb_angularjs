@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+	<link rel="Shortcut Icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/common.css">
+	<script>
+		var is_android = navigator.userAgent.toLowerCase().indexOf('android') != -1;
+		var is_ios = navigator.userAgent.toLowerCase().indexOf('iphone') != -1
+		var is_weixin = navigator.userAgent.toLowerCase().indexOf('micromessenger') != -1;
+		var _ww = (window.screen.availWidth * (window.devicePixelRatio || 1.5) / 1);
+		if (is_android && _ww < 720) {
+		  document.writeln('<meta name="viewport" content="width=750px,target-densitydpi=device-dpi,user-scalable=yes,initial-scale=0.5,maximum-scale=1.0" />');
+		}else{
+		  document.writeln('<meta name="viewport" content="width=750px,target-densitydpi=device-dpi,user-scalable=no,maximum-scale=1.0" />');
+		}
+	</script>
+</head>
+<body>
+<article class="article">
+	<!-- header -->
+	<header class="header">
+		<span class="year">2017年01月</span>
+		<span class="week">星期一</span>
+		<span class="day">16</span>
+		<span class="lunar">腊月十九</span>
+	</header>
+	<!-- /header end -->
+	<!-- section -->
+	<section class="section">
+		<div class="cont1">
+			<i class="ico yi">宜交易</i>
+			<h1>【终于等到满仓的时候…】</h1>
+		</div>
+		<div class="cont2">
+			<p class="yi">
+				<span>出行</span>
+				<span>起基</span>
+				<span>安床</span>
+				<span>纳财</span>
+				<span>交易</span>
+				<span>立券</span>
+				<span>嫁娶</span>
+				<span>栽种</span>
+				<span>入殓</span>
+				<span>移柩</span>
+				<span>安葬</span> 
+			</p>
+			<p class="ji">
+				<span>挂匾</span>
+				<span>入宅</span>
+				<span>上梁</span>
+				<span>祈福</span>
+				<span>词讼</span>
+				<span>作梁</span>
+				<span>作灶</span>
+				<span>开池</span>
+				<span>安门</span>
+				<span>动土</span>
+				<span>破土</span>
+				<span>掘井</span>
+			</p>
+		</div>
+	</section>
+	<!-- /section end -->
+	<!-- footer -->
+	<footer class="footer">
+		交易老黄历预测完全遵循万年历，仅供参考。<br>Copyright © 55188.com 理想论坛
+	</footer>
+	<!-- /footer end -->
+</article>
+</body>
+</html>
