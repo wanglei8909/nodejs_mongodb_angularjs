@@ -16,5 +16,5 @@ var start = process.hrtime();
 setTimeout(function() {
   var delta = process.hrtime(start);
   console.log('High-Res Timer took %d seconds and %d nanoseonds',delta[0], + delta[1]);
-  console.log("Node has brrn running %d seconds", process.uptime());
+  console.log("Node has been running %d seconds", process.uptime());
 }, 1000);
